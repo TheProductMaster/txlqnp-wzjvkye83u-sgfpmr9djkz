@@ -23,6 +23,10 @@ export default {
           'sans-serif',
         ],
       },
+      borderRadius: {
+        '2xl': '1rem',
+        '3xl': '1.5rem',
+      },
       animation: {
         'fade-in': 'fadeIn 0.5s ease-in-out',
         'slide-in': 'slideIn 0.3s ease-out',

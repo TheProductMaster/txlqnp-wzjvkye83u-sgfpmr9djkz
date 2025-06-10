@@ -212,7 +212,7 @@ export function BlogDetailPage({ postId }: BlogDetailPageProps) {
       <section className="px-4 mb-12">
         <div className="container mx-auto">
           <div className="max-w-7xl mx-auto">
-            <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl">
+            <div className="aspect-video rounded-xl overflow-hidden shadow-2xl">
               <img
                 src={currentPost.image}
                 alt={currentPost.title}
