@@ -104,7 +104,7 @@ export function FinalCTA() {
 
             {/* Contact Methods */}
             <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto mb-16">
-              {contactMethods.map((method, index) => (
+              {contactMethods.map((method) => (
                 <Card
                   key={method.title}
                   className="glass-card border-white/20 hover:border-white/40 p-8 hover-lift group text-center"

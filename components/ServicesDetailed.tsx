@@ -175,7 +175,7 @@ export function ServicesDetailed() {
                 title: "Launch",
                 description: "Deploying your solution and providing ongoing support"
               }
-            ].map((phase, index) => (
+              ].map((phase) => (
               <div key={phase.step} className="text-center group">
                 <div className="w-16 h-16 bg-accent text-accent-foreground rounded-2xl flex items-center justify-center text-2xl font-bold mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                   {phase.step}

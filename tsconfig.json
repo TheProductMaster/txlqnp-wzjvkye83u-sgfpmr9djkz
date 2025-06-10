@@ -24,7 +24,7 @@
     /* Path mapping */
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./src/*"],
+      "@/*": ["./*"],
       "@/components/*": ["./components/*"],
       "@/data/*": ["./data/*"],
       "@/utils/*": ["./utils/*"],
@@ -40,6 +40,5 @@
     "node_modules",
     "dist",
     "scripts"
-  ],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  ]
 }

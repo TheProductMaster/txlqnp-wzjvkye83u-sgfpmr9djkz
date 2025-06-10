@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Card, CardContent } from '../ui/card';
+import { Card } from '../ui/card';
 import { Button } from '../ui/button';
 import { Badge } from '../ui/badge';
 import { Avatar, AvatarImage, AvatarFallback } from '../ui/avatar';
@@ -376,8 +376,8 @@ export function BlogDetailPage({ postId }: BlogDetailPageProps) {
                         </svg>
                         Related Articles
                       </h3>
-                      <div className="space-y-6">
-                        {relatedPosts.map((post, index) => (
+                        <div className="space-y-6">
+                          {relatedPosts.map((post) => (
                           <div
                             key={post.id}
                             className="group cursor-pointer border-b border-border pb-4 last:border-b-0 last:pb-0"

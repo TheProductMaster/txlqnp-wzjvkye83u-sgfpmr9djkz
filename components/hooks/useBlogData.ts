@@ -74,7 +74,7 @@ export function useBlogData(): BlogData {
         setLoading(true);
         setError(null);
 
-        console.log('🔍 Loading blog data...');
+        console.warn('Loading blog data...');
 
         // Try to load blog posts
         let postsData: BlogPost[] = [];
@@ -85,7 +85,7 @@ export function useBlogData(): BlogData {
             const responseData = await postsResponse.json();
             if (Array.isArray(responseData)) {
               postsData = responseData;
-              console.log(`✅ Loaded ${postsData.length} blog posts from CMS`);
+              console.warn(`Loaded ${postsData.length} blog posts from CMS`);
             } else {
               throw new Error('Invalid blog posts data format');
             }
@@ -109,7 +109,7 @@ export function useBlogData(): BlogData {
               categoriesData = responseData;
             }
           }
-        } catch (categoryError) {
+        } catch (_categoryError) {
           console.warn('⚠️  Could not load categories, generating from posts');
         }
         
@@ -129,7 +129,7 @@ export function useBlogData(): BlogData {
               featuredData = responseData;
             }
           }
-        } catch (featuredError) {
+        } catch (_featuredError) {
           console.warn('⚠️  Could not load featured posts, filtering from posts');
         }
         
@@ -139,7 +139,7 @@ export function useBlogData(): BlogData {
         }
         setFeaturedPosts(featuredData);
 
-        console.log('✅ Blog data loaded successfully');
+        console.warn('Blog data loaded successfully');
 
       } catch (err) {
         const errorMessage = err instanceof Error ? err.message : 'Unknown error loading blog data';
@@ -147,7 +147,7 @@ export function useBlogData(): BlogData {
         setError(errorMessage);
         
         // Use fallback data even on error
-        console.log('🔄 Using fallback data due to error');
+        console.warn('Using fallback data due to error');
         setPosts(fallbackPosts);
         setCategories(['AI & Technology', 'Design']);
         setFeaturedPosts(fallbackPosts.filter(post => post.featured));
