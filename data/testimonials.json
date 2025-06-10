@@ -1,0 +1,100 @@
+{
+  "testimonials": [
+    {
+      "id": "testimonial-1",
+      "clientName": "Sarah Johnson",
+      "clientTitle": "CTO",
+      "company": "TechCorp Industries",
+      "quote": "NexTech Agency transformed our entire digital infrastructure. Their expertise in enterprise solutions and attention to detail exceeded our expectations. The platform they built improved our operational efficiency by 40% and our team productivity has never been higher.",
+      "rating": 5,
+      "projectId": "techcorp-platform",
+      "avatar": "https://images.unsplash.com/photo-1494790108755-2616b612b586?w=150&h=150&fit=crop&crop=face",
+      "featured": true,
+      "date": "2024-03-20"
+    },
+    {
+      "id": "testimonial-2", 
+      "clientName": "Michael Chen",
+      "clientTitle": "Founder & CEO",
+      "company": "FinanceFlow Startup",
+      "quote": "Working with NexTech Agency was a game-changer for our fintech startup. They delivered a beautiful, secure mobile app that our users absolutely love. The AI-powered insights feature has become our main differentiator in the market.",
+      "rating": 5,
+      "projectId": "fintech-mobile-app",
+      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+      "featured": true,
+      "date": "2024-01-25"
+    },
+    {
+      "id": "testimonial-3",
+      "clientName": "Emily Rodriguez",
+      "clientTitle": "Head of Digital",
+      "company": "StyleHub Fashion",
+      "quote": "The e-commerce redesign by NexTech Agency completely transformed our online presence. Our conversion rates increased by 45% and customer feedback has been overwhelmingly positive. They truly understand both design and business goals.",
+      "rating": 5,
+      "projectId": "ecommerce-redesign",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+      "featured": true,
+      "date": "2023-11-15"
+    },
+    {
+      "id": "testimonial-4",
+      "clientName": "Dr. James Wilson",
+      "clientTitle": "Chief Medical Officer",
+      "company": "MedConnect Health",
+      "quote": "NexTech Agency delivered exactly what we needed for our telemedicine platform. Their understanding of healthcare compliance and security requirements was impressive. The platform has facilitated over 25,000 consultations with zero security incidents.",
+      "rating": 5,
+      "projectId": "healthtech-platform", 
+      "avatar": "https://images.unsplash.com/photo-1559548331-f9cb98648ba9?w=150&h=150&fit=crop&crop=face",
+      "featured": false,
+      "date": "2023-09-10"
+    },
+    {
+      "id": "testimonial-5",
+      "clientName": "Lisa Thompson",
+      "clientTitle": "VP of Analytics",
+      "company": "DataInsight Corp",
+      "quote": "The AI analytics dashboard created by NexTech Agency has revolutionized how we make business decisions. The predictive analytics are incredibly accurate, and the user interface makes complex data accessible to our entire team.",
+      "rating": 5,
+      "projectId": "ai-analytics-dashboard",
+      "avatar": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=150&h=150&fit=crop&crop=face",
+      "featured": false,
+      "date": "2023-12-25"
+    },
+    {
+      "id": "testimonial-6",
+      "clientName": "Alex Green",
+      "clientTitle": "Founder",
+      "company": "EcoTrack Startup",
+      "quote": "NexTech Agency helped us build our MVP quickly and efficiently. Their agile approach and technical expertise were crucial in helping us secure seed funding. The app they built exceeded our expectations and user feedback has been fantastic.",
+      "rating": 5,
+      "projectId": "startup-mvp",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+      "featured": false,
+      "date": "2024-02-20"
+    },
+    {
+      "id": "testimonial-7",
+      "clientName": "Rachel Martinez",
+      "clientTitle": "Marketing Director",
+      "company": "GreenTech Solutions",
+      "quote": "NexTech Agency's digital marketing strategy increased our online visibility by 200%. Their data-driven approach and creative campaigns helped us reach new audiences and significantly boost our lead generation.",
+      "rating": 5,
+      "projectId": "digital-marketing-campaign",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face",
+      "featured": false,
+      "date": "2024-01-10"
+    },
+    {
+      "id": "testimonial-8",
+      "clientName": "David Park",
+      "clientTitle": "Product Manager", 
+      "company": "InnovateLab",
+      "quote": "The team at NexTech Agency is exceptional. They took our complex requirements and turned them into an elegant, user-friendly solution. Their communication throughout the project was excellent, and they delivered on time and within budget.",
+      "rating": 5,
+      "projectId": "innovate-platform",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
+      "featured": false,
+      "date": "2023-10-15"
+    }
+  ]
+}

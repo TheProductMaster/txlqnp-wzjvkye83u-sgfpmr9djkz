@@ -1,0 +1,166 @@
+{
+  "services": [
+    {
+      "id": "web-development",
+      "title": "Web Development",
+      "icon": "💻",
+      "shortDescription": "Custom web applications built with modern technologies for optimal performance and user experience.",
+      "description": "We create stunning, high-performance websites and web applications using the latest technologies. From simple landing pages to complex enterprise solutions, we deliver scalable and maintainable code.",
+      "features": [
+        "Custom Web Applications",
+        "E-commerce Solutions",
+        "Progressive Web Apps",
+        "API Development",
+        "Performance Optimization",
+        "SEO Implementation"
+      ],
+      "technologies": [
+        "React",
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "Python",
+        "PostgreSQL",
+        "AWS",
+        "Vercel"
+      ],
+      "startingPrice": "$5,000",
+      "deliveryTime": "4-8 weeks"
+    },
+    {
+      "id": "ui-ux-design",
+      "title": "UI/UX Design",
+      "icon": "🎨",
+      "shortDescription": "User-centered design solutions that create intuitive and engaging digital experiences.",
+      "description": "Our design team crafts beautiful, intuitive interfaces that users love. We focus on user research, wireframing, prototyping, and visual design to create exceptional user experiences.",
+      "features": [
+        "User Research & Analysis",
+        "Wireframing & Prototyping",
+        "Visual Design",
+        "Design Systems",
+        "Usability Testing",
+        "Brand Identity"
+      ],
+      "technologies": [
+        "Figma",
+        "Adobe Creative Suite",
+        "Sketch",
+        "InVision",
+        "Principle",
+        "Framer",
+        "Miro",
+        "Hotjar"
+      ],
+      "startingPrice": "$3,000",
+      "deliveryTime": "2-6 weeks"
+    },
+    {
+      "id": "mobile-development",
+      "title": "Mobile App Development",
+      "icon": "📱",
+      "shortDescription": "Native and cross-platform mobile applications for iOS and Android platforms.",
+      "description": "We develop high-quality mobile applications for both iOS and Android platforms. Whether you need a native app or cross-platform solution, we deliver apps that users love.",
+      "features": [
+        "Native iOS Development",
+        "Native Android Development",
+        "Cross-platform Solutions",
+        "App Store Optimization",
+        "Push Notifications",
+        "Analytics Integration"
+      ],
+      "technologies": [
+        "React Native",
+        "Flutter",
+        "Swift",
+        "Kotlin",
+        "Firebase",
+        "Redux",
+        "GraphQL",
+        "MongoDB"
+      ],
+      "startingPrice": "$8,000",
+      "deliveryTime": "6-12 weeks"
+    },
+    {
+      "id": "ai-solutions",
+      "title": "AI & Machine Learning",
+      "icon": "🤖",
+      "shortDescription": "Intelligent solutions powered by artificial intelligence and machine learning technologies.",
+      "description": "Harness the power of AI to transform your business. We implement machine learning models, chatbots, recommendation systems, and other AI-powered features.",
+      "features": [
+        "Custom AI Models",
+        "Chatbot Development",
+        "Recommendation Systems",
+        "Natural Language Processing",
+        "Computer Vision",
+        "Predictive Analytics"
+      ],
+      "technologies": [
+        "Python",
+        "TensorFlow",
+        "PyTorch",
+        "OpenAI API",
+        "Hugging Face",
+        "Scikit-learn",
+        "Docker",
+        "Kubernetes"
+      ],
+      "startingPrice": "$10,000",
+      "deliveryTime": "8-16 weeks"
+    },
+    {
+      "id": "ecommerce",
+      "title": "E-commerce Solutions",
+      "icon": "🛒",
+      "shortDescription": "Complete e-commerce platforms with payment processing, inventory management, and analytics.",
+      "description": "Build your online store with our comprehensive e-commerce solutions. We create scalable platforms that handle everything from product management to payment processing.",
+      "features": [
+        "Custom E-commerce Platforms",
+        "Payment Gateway Integration",
+        "Inventory Management",
+        "Order Processing",
+        "Customer Analytics",
+        "Multi-vendor Support"
+      ],
+      "technologies": [
+        "Shopify",
+        "WooCommerce",
+        "Magento",
+        "Stripe",
+        "PayPal",
+        "BigCommerce",
+        "Headless Commerce",
+        "GraphQL"
+      ],
+      "startingPrice": "$7,000",
+      "deliveryTime": "6-10 weeks"
+    },
+    {
+      "id": "digital-marketing",
+      "title": "Digital Marketing",
+      "icon": "📈",
+      "shortDescription": "Data-driven marketing strategies to grow your online presence and drive conversions.",
+      "description": "Boost your online presence with our comprehensive digital marketing services. We use data-driven strategies to increase visibility, engagement, and conversions.",
+      "features": [
+        "SEO Optimization",
+        "Social Media Marketing",
+        "Content Strategy",
+        "PPC Advertising",
+        "Email Marketing",
+        "Analytics & Reporting"
+      ],
+      "technologies": [
+        "Google Analytics",
+        "Google Ads",
+        "Facebook Ads",
+        "HubSpot",
+        "Mailchimp",
+        "SEMrush",
+        "Ahrefs",
+        "Hotjar"
+      ],
+      "startingPrice": "$2,000",
+      "deliveryTime": "2-4 weeks"
+    }
+  ]
+}

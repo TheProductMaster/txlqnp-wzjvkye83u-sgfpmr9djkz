@@ -1,0 +1,49 @@
+{
+  "company": {
+    "name": "NexTech Agency",
+    "tagline": "Building Tomorrow's Digital Experiences Today",
+    "mission": "We transform bold ideas into exceptional digital experiences through innovative design and cutting-edge technology.",
+    "founded": "2018",
+    "projectsCompleted": "150+",
+    "clientsSatisfied": "100+",
+    "teamMembers": "25+"
+  },
+  "navigation": [
+    {
+      "name": "Home",
+      "url": "/"
+    },
+    {
+      "name": "Services",
+      "url": "/services"
+    },
+    {
+      "name": "Portfolio",
+      "url": "/portfolio"
+    },
+    {
+      "name": "About",
+      "url": "/about"
+    },
+    {
+      "name": "Blog",
+      "url": "/blog"
+    },
+    {
+      "name": "Contact",
+      "url": "/contact"
+    }
+  ],
+  "contactInfo": {
+    "email": "hello@nextechagency.com",
+    "phone": "+1 (555) 123-4567",
+    "address": "123 Innovation Drive, Tech Valley, CA 94043",
+    "businessHours": "Mon-Fri 9AM-6PM PST"
+  },
+  "socialLinks": {
+    "linkedin": "https://linkedin.com/company/nextech-agency",
+    "twitter": "https://twitter.com/nextechagency",
+    "github": "https://github.com/nextechagency",
+    "dribbble": "https://dribbble.com/nextechagency"
+  }
+}

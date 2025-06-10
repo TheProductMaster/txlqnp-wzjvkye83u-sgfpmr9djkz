@@ -1,0 +1,154 @@
+{
+  "projects": [
+    {
+      "id": "techcorp-platform",
+      "title": "TechCorp Enterprise Platform",
+      "clientName": "TechCorp Industries",
+      "shortDescription": "A comprehensive enterprise platform for managing operations, analytics, and customer relationships.",
+      "description": "We developed a full-scale enterprise platform for TechCorp Industries, incorporating advanced analytics, customer relationship management, and operational oversight tools. The platform improved efficiency by 40% and customer satisfaction by 35%.",
+      "thumbnailImage": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop",
+      "images": [
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop"
+      ],
+      "category": "Web Development",
+      "tags": ["React", "Node.js", "PostgreSQL", "AWS", "TypeScript"],
+      "technologies": ["React", "Next.js", "Node.js", "PostgreSQL", "AWS", "TypeScript", "Redis", "Docker"],
+      "projectDuration": "6 months",
+      "teamSize": "8 members",
+      "results": {
+        "efficiency": "+40%",
+        "satisfaction": "+35%",
+        "revenue": "+25%"
+      },
+      "url": "https://techcorp-platform.example.com",
+      "featured": true,
+      "completedDate": "2024-03-15"
+    },
+    {
+      "id": "fintech-mobile-app",
+      "title": "FinanceFlow Mobile App",
+      "clientName": "FinanceFlow Startup",
+      "shortDescription": "A modern mobile banking app with AI-powered financial insights and seamless user experience.",
+      "description": "Created a cutting-edge mobile banking application featuring AI-powered financial insights, budgeting tools, and seamless payment processing. The app reached 50K+ downloads in the first quarter.",
+      "thumbnailImage": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=600&h=400&fit=crop",
+      "images": [
+        "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&h=600&fit=crop"
+      ],
+      "category": "Mobile Development",
+      "tags": ["React Native", "AI/ML", "FinTech", "iOS", "Android"],
+      "technologies": ["React Native", "Python", "TensorFlow", "Firebase", "Stripe", "Redux", "TypeScript"],
+      "projectDuration": "4 months",
+      "teamSize": "6 members",
+      "results": {
+        "downloads": "50K+",
+        "rating": "4.8/5",
+        "retention": "75%"
+      },
+      "url": "https://financeflow-app.example.com",
+      "featured": true,
+      "completedDate": "2024-01-20"
+    },
+    {
+      "id": "ecommerce-redesign",
+      "title": "StyleHub E-commerce Redesign",
+      "clientName": "StyleHub Fashion",
+      "shortDescription": "Complete redesign of fashion e-commerce platform with improved UX and conversion optimization.",
+      "description": "Redesigned StyleHub's entire e-commerce platform, focusing on user experience optimization and conversion rate improvement. Implemented advanced filtering, personalized recommendations, and streamlined checkout process.",
+      "thumbnailImage": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop",
+      "images": [
+        "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=800&h=600&fit=crop"
+      ],
+      "category": "E-commerce",
+      "tags": ["Shopify", "UI/UX", "Conversion Optimization", "Fashion"],
+      "technologies": ["Shopify Plus", "React", "GraphQL", "Stripe", "Klaviyo", "Google Analytics"],
+      "projectDuration": "3 months",
+      "teamSize": "5 members",
+      "results": {
+        "conversion": "+45%",
+        "revenue": "+60%",
+        "pagespeed": "+30%"
+      },
+      "url": "https://stylehub-fashion.example.com",
+      "featured": true,
+      "completedDate": "2023-11-10"
+    },
+    {
+      "id": "healthtech-platform",
+      "title": "MedConnect Telemedicine Platform",
+      "clientName": "MedConnect Health",
+      "shortDescription": "Secure telemedicine platform connecting patients with healthcare providers through video consultations.",
+      "description": "Developed a HIPAA-compliant telemedicine platform enabling secure video consultations between patients and healthcare providers. Includes appointment scheduling, prescription management, and patient records.",
+      "thumbnailImage": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&h=400&fit=crop",
+      "images": [
+        "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=600&fit=crop"
+      ],
+      "category": "Healthcare",
+      "tags": ["Healthcare", "HIPAA", "Video Chat", "React", "Security"],
+      "technologies": ["React", "Node.js", "WebRTC", "PostgreSQL", "AWS", "Twilio", "Stripe"],
+      "projectDuration": "5 months",
+      "teamSize": "7 members",
+      "results": {
+        "users": "10K+",
+        "consultations": "25K+",
+        "satisfaction": "95%"
+      },
+      "url": "https://medconnect-platform.example.com",
+      "featured": false,
+      "completedDate": "2023-09-05"
+    },
+    {
+      "id": "ai-analytics-dashboard",
+      "title": "DataInsight AI Analytics Dashboard",
+      "clientName": "DataInsight Corp",
+      "shortDescription": "AI-powered analytics dashboard providing real-time business insights and predictive analytics.",
+      "description": "Built an advanced analytics dashboard with AI-powered insights, real-time data visualization, and predictive analytics capabilities. Helps businesses make data-driven decisions with confidence.",
+      "thumbnailImage": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+      "images": [
+        "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop"
+      ],
+      "category": "AI/ML",
+      "tags": ["AI", "Analytics", "Dashboard", "Machine Learning", "Data Visualization"],
+      "technologies": ["React", "Python", "TensorFlow", "D3.js", "PostgreSQL", "Redis", "Docker"],
+      "projectDuration": "4 months",
+      "teamSize": "6 members",
+      "results": {
+        "accuracy": "92%",
+        "processing": "5x faster",
+        "adoption": "85%"
+      },
+      "url": "https://datainsight-dashboard.example.com",
+      "featured": false,
+      "completedDate": "2023-12-20"
+    },
+    {
+      "id": "startup-mvp",
+      "title": "EcoTrack Sustainability App",
+      "clientName": "EcoTrack Startup",
+      "shortDescription": "Mobile app helping users track their carbon footprint and discover sustainable lifestyle choices.",
+      "description": "Developed an MVP mobile application for a sustainability startup, featuring carbon footprint tracking, eco-friendly recommendations, and social sharing capabilities. Secured seed funding after launch.",
+      "thumbnailImage": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop",
+      "images": [
+        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
+        "https://images.unsplash.com/photo-1611273426858-450d8e3c9fce?w=800&h=600&fit=crop"
+      ],
+      "category": "Mobile Development",
+      "tags": ["Sustainability", "MVP", "React Native", "Social Features"],
+      "technologies": ["React Native", "Firebase", "Node.js", "MongoDB", "Google Maps API"],
+      "projectDuration": "2 months",
+      "teamSize": "4 members",
+      "results": {
+        "users": "5K+",
+        "funding": "$500K",
+        "engagement": "65%"
+      },
+      "url": "https://ecotrack-app.example.com",
+      "featured": false,
+      "completedDate": "2024-02-14"
+    }
+  ]
+}

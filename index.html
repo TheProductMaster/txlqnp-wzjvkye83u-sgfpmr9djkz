@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Professional IT Services Agency specializing in web development, mobile apps, UI/UX design, and AI solutions. Get your digital project started today." />
+    <meta name="keywords" content="IT services, web development, mobile apps, UI/UX design, AI solutions, full-stack development, WordPress, Shopify" />
+    <meta name="author" content="IT Services Agency" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="IT Services Agency - Professional Web Development & Digital Solutions" />
+    <meta property="og:description" content="Expert IT services including web development, mobile apps, UI/UX design, and AI solutions. Transform your business with our professional team." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://your-domain.com" />
+    <meta property="og:image" content="https://your-domain.com/og-image.jpg" />
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="IT Services Agency - Professional Web Development" />
+    <meta name="twitter:description" content="Expert IT services including web development, mobile apps, UI/UX design, and AI solutions." />
+    <meta name="twitter:image" content="https://your-domain.com/twitter-image.jpg" />
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    
+    <!-- Preload critical fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- Critical CSS inline -->
+    <style>
+      /* Critical above-the-fold styles */
+      html {
+        scroll-behavior: smooth;
+      }
+      body {
+        margin: 0;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      .loading-screen {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: #f8f9fa;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 9999;
+      }
+      .loading-spinner {
+        width: 40px;
+        height: 40px;
+        border: 4px solid #e5e7eb;
+        border-top: 4px solid #0969da;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+      }
+      @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+      }
+      @media (prefers-color-scheme: dark) {
+        .loading-screen {
+          background: #0d1117;
+        }
+        .loading-spinner {
+          border-color: #30363d;
+          border-top-color: #58a6ff;
+        }
+      }
+    </style>
+    
+    <title>IT Services Agency - Professional Web Development & Digital Solutions</title>
+  </head>
+  <body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+      <div class="loading-spinner"></div>
+    </div>
+    
+    <!-- Main App Container -->
+    <div id="root"></div>
+    
+    <!-- Remove loading screen when app loads -->
+    <script>
+      window.addEventListener('load', function() {
+        const loadingScreen = document.getElementById('loading-screen');
+        if (loadingScreen) {
+          setTimeout(() => {
+            loadingScreen.style.opacity = '0';
+            setTimeout(() => {
+              loadingScreen.remove();
+            }, 300);
+          }, 500);
+        }
+      });
+    </script>
+    
+    <script type="module" src="/main.tsx"></script>
+  </body>
+</html>
