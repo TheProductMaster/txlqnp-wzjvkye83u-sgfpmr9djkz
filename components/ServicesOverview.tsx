@@ -54,8 +54,8 @@ export function ServicesOverview() {
         </div>
 
         {/* Main Services Grid */}
-        <div className="grid lg:grid-cols-2 gap-8 mb-16">
-          {mainServices.map((service, index) => {
+          <div className="grid lg:grid-cols-2 gap-8 mb-16">
+            {mainServices.map((service) => {
             const isHovered = hoveredService === service.id;
             const isExpanded = expandedTech.includes(service.id);
             const displayTech = isExpanded ? service.technologies : service.technologies.slice(0, 4);

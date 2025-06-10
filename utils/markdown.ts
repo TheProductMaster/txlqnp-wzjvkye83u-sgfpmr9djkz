@@ -1,4 +1,4 @@
-import { readFileSync, readdirSync, statSync } from 'fs';
+import { readFileSync, readdirSync } from 'fs';
 import { join, extname } from 'path';
 import matter from 'gray-matter';
 
@@ -53,16 +53,16 @@ export function processMarkdownContent(content: string): string {
     // Italic
     .replace(/\*(.*)\*/gim, '<em>$1</em>')
     // Links
-    .replace(/\[([^\]]*)\]\(([^\)]*)\)/gim, '<a href="$2">$1</a>')
+    .replace(/\[([^\]]*)\]\(([^)]*)\)/gim, '<a href="$2">$1</a>')
     // Lists
     .replace(/^\s*\n\*/gm, '<ul>\n*')
-    .replace(/^(\*.+)\s*\n([^\*])/gm, '$1\n</ul>\n\n$2')
+    .replace(/^(\*.+)\s*\n([^*])/gm, '$1\n</ul>\n\n$2')
     .replace(/^\*(.+)/gm, '<li>$1</li>')
     // Blockquotes
-    .replace(/^\> (.+)/gm, '<blockquote>$1</blockquote>')
+    .replace(/^> (.+)/gm, '<blockquote>$1</blockquote>')
     // Paragraphs
     .replace(/^\s*(\n)?(.+)/gm, function(m) {
-      return /\<(\/)?(h\d|ul|ol|li|blockquote|pre|img)/.test(m) ? m : '<p>' + m + '</p>';
+      return /<(\/)?(h\d|ul|ol|li|blockquote|pre|img)/.test(m) ? m : '<p>' + m + '</p>';
     })
     // Line breaks
     .replace(/\n/gim, '<br>');
@@ -74,7 +74,8 @@ export function processMarkdownContent(content: string): string {
 export function loadMarkdownFile(filePath: string): BlogPost | null {
   try {
     const fileContent = readFileSync(filePath, 'utf-8');
-    const { data, content } = matter(fileContent) as MarkdownData;
+    const parsed = matter(fileContent) as matter.GrayMatterFile<string>;
+    const { data, content } = parsed as unknown as MarkdownData;
     
     // Generate ID from filename
     const filename = filePath.split('/').pop() || '';

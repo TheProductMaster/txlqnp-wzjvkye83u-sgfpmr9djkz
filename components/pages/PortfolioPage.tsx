@@ -6,7 +6,7 @@ import { projects } from '../data/index';
 
 export function PortfolioPage() {
   const [selectedCategory, setSelectedCategory] = useState('All');
-  const [selectedProject, setSelectedProject] = useState<any>(null);
+  const [selectedProject, setSelectedProject] = useState<(typeof projects.projects[number]) | null>(null);
 
   const categories = ['All', 'Web Development', 'Mobile Development', 'E-commerce', 'AI/ML', 'Healthcare'];
   
