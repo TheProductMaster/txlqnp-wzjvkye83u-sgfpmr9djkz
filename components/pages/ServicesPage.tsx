@@ -71,7 +71,7 @@ export function ServicesPage() {
               <Card className="modern-card p-8 h-full">
                 <CardContent className="p-0">
                   <div className="flex items-center space-x-4 mb-6">
-                    <div className="w-16 h-16 bg-accent text-accent-foreground rounded-2xl flex items-center justify-center text-3xl">
+                    <div className="w-16 h-16 bg-accent text-accent-foreground rounded-xl flex items-center justify-center text-3xl">
                       {selectedService.icon}
                     </div>
                     <div>

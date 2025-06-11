@@ -112,7 +112,7 @@ export function AboutSnapshot() {
             <div className="flex flex-col sm:flex-row gap-6 pt-4">
               <Button 
                 size="lg"
-                className="magnetic bg-gradient-to-r from-gradient-start to-gradient-end shadow-glow px-8 py-6 rounded-2xl text-white font-semibold"
+                className="magnetic bg-gradient-to-r from-gradient-start to-gradient-end shadow-glow px-8 py-6 rounded-xl text-white font-semibold"
                 onClick={() => window.location.hash = 'about'}
               >
                 Our Story
@@ -123,7 +123,7 @@ export function AboutSnapshot() {
               <Button 
                 variant="outline"
                 size="lg"
-                className="magnetic glass-strong border-white/30 hover:border-white/50 px-8 py-6 rounded-2xl glass-text font-semibold glass-interactive"
+                className="magnetic glass-strong border-white/30 hover:border-white/50 px-8 py-6 rounded-xl glass-text font-semibold glass-interactive"
                 onClick={() => window.location.hash = 'about'}
               >
                 Meet the Team
@@ -142,7 +142,7 @@ export function AboutSnapshot() {
                   style={{ animationDelay: `${index * 150}ms` }}
                 >
                   <CardContent className="p-0 text-center">
-                    <div className={`w-16 h-16 bg-gradient-to-br ${achievement.color} rounded-2xl flex items-center justify-center text-2xl mx-auto mb-4 shadow-glow group-hover:scale-110 transition-transform duration-300`}>
+                    <div className={`w-16 h-16 bg-gradient-to-br ${achievement.color} rounded-xl flex items-center justify-center text-2xl mx-auto mb-4 shadow-glow group-hover:scale-110 transition-transform duration-300`}>
                       {achievement.icon}
                     </div>
                     <div className="text-3xl font-bold gradient-text mb-2">
@@ -160,7 +160,7 @@ export function AboutSnapshot() {
             </div>
 
             {/* Dynamic Achievement Detail with Better Readability */}
-            <div className="mt-8 glass-strong rounded-2xl p-6 border border-white/30">
+            <div className="mt-8 glass-strong rounded-xl p-6 border border-white/30">
               <div className="flex items-center space-x-4">
                 <div className={`w-12 h-12 bg-gradient-to-br ${achievements[activeValue].color} rounded-xl flex items-center justify-center text-xl`}>
                   {achievements[activeValue].icon}

@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Card, CardContent } from '../ui/card';
 import { Button } from '../ui/button';
 import { Badge } from '../ui/badge';
-import { useToast } from '../ui/toast';
+import { useToast } from '../ui/use-toast';
 import { emailService, type ContactFormData } from '../services/emailService';
 import { settings } from '../data/index';
 
@@ -153,9 +153,9 @@ export function ContactPage() {
         <div className="container mx-auto">
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
             {contactMethods.map((method, index) => (
-              <Card 
-                key={method.title} 
-                className={`modern-card p-6 text-center hover-lift ${method.action ? 'cursor-pointer' : ''}`}
+              <Card
+                key={method.title}
+                className="modern-card p-6 text-center hover-lift cursor-pointer"
                 onClick={method.action}
                 style={{ animationDelay: `${index * 150}ms` }}
               >

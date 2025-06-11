@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+import animate from 'tailwindcss-animate';
+import lineClamp from '@tailwindcss/line-clamp';
+
 export default {
   content: [
     "./index.html",
@@ -9,6 +12,27 @@ export default {
   darkMode: 'class',
   theme: {
     extend: {
+      colors: {
+        background: 'var(--background)',
+        foreground: 'var(--foreground)',
+        card: 'var(--card)',
+        'card-foreground': 'var(--card-foreground)',
+        popover: 'var(--popover)',
+        'popover-foreground': 'var(--popover-foreground)',
+        primary: 'var(--primary)',
+        'primary-foreground': 'var(--primary-foreground)',
+        secondary: 'var(--secondary)',
+        'secondary-foreground': 'var(--secondary-foreground)',
+        muted: 'var(--muted)',
+        'muted-foreground': 'var(--muted-foreground)',
+        accent: 'var(--accent)',
+        'accent-foreground': 'var(--accent-foreground)',
+        destructive: 'var(--destructive)',
+        'destructive-foreground': 'var(--destructive-foreground)',
+        border: 'var(--border)',
+        input: 'var(--input)',
+        ring: 'var(--ring)',
+      },
       fontFamily: {
         sans: [
           '-apple-system',
@@ -19,6 +43,10 @@ export default {
           'Arial',
           'sans-serif',
         ],
+      },
+      borderRadius: {
+        '2xl': '1rem',
+        '3xl': '1.5rem',
       },
       animation: {
         'fade-in': 'fadeIn 0.5s ease-in-out',
@@ -46,5 +74,5 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [animate, lineClamp],
 }

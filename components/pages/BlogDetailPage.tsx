@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Card, CardContent } from '../ui/card';
+import { Card } from '../ui/card';
 import { Button } from '../ui/button';
 import { Badge } from '../ui/badge';
 import { Avatar, AvatarImage, AvatarFallback } from '../ui/avatar';
@@ -212,7 +212,7 @@ export function BlogDetailPage({ postId }: BlogDetailPageProps) {
       <section className="px-4 mb-12">
         <div className="container mx-auto">
           <div className="max-w-7xl mx-auto">
-            <div className="aspect-video rounded-2xl overflow-hidden shadow-2xl">
+            <div className="aspect-video rounded-xl overflow-hidden shadow-2xl">
               <img
                 src={currentPost.image}
                 alt={currentPost.title}
@@ -376,8 +376,8 @@ export function BlogDetailPage({ postId }: BlogDetailPageProps) {
                         </svg>
                         Related Articles
                       </h3>
-                      <div className="space-y-6">
-                        {relatedPosts.map((post, index) => (
+                        <div className="space-y-6">
+                          {relatedPosts.map((post) => (
                           <div
                             key={post.id}
                             className="group cursor-pointer border-b border-border pb-4 last:border-b-0 last:pb-0"

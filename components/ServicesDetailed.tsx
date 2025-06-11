@@ -60,7 +60,7 @@ export function ServicesDetailed() {
                 
                 <CardContent className="p-0 h-full flex flex-col relative z-10">
                   {/* Service Icon */}
-                  <div className="w-16 h-16 text-3xl mb-6 bg-primary text-primary-foreground rounded-2xl flex items-center justify-center shadow-modern group-hover:scale-110 transition-transform duration-500">
+                  <div className="w-16 h-16 text-3xl mb-6 bg-primary text-primary-foreground rounded-xl flex items-center justify-center shadow-modern group-hover:scale-110 transition-transform duration-500">
                     <span>{service.icon}</span>
                   </div>
 
@@ -175,9 +175,9 @@ export function ServicesDetailed() {
                 title: "Launch",
                 description: "Deploying your solution and providing ongoing support"
               }
-            ].map((phase, index) => (
+              ].map((phase) => (
               <div key={phase.step} className="text-center group">
-                <div className="w-16 h-16 bg-accent text-accent-foreground rounded-2xl flex items-center justify-center text-2xl font-bold mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
+                <div className="w-16 h-16 bg-accent text-accent-foreground rounded-xl flex items-center justify-center text-2xl font-bold mx-auto mb-4 group-hover:scale-110 transition-transform duration-300">
                   {phase.step}
                 </div>
                 <h4 className="text-lg font-semibold text-foreground mb-2">
@@ -205,7 +205,7 @@ export function ServicesDetailed() {
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <Button 
                 size="lg"
-                className="btn-primary px-8 py-6 rounded-2xl magnetic"
+                className="btn-primary px-8 py-6 rounded-xl magnetic"
               >
                 Start Your Project
                 <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -215,7 +215,7 @@ export function ServicesDetailed() {
               <Button 
                 variant="outline" 
                 size="lg"
-                className="btn-outline px-8 py-6 rounded-2xl magnetic"
+                className="btn-outline px-8 py-6 rounded-xl magnetic"
               >
                 Schedule Consultation
                 <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

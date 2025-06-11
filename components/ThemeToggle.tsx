@@ -1,4 +1,4 @@
-import { useTheme } from './ThemeProvider';
+import { useTheme } from './hooks/theme';
 import { Button } from './ui/button';
 
 export function ThemeToggle() {

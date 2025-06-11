@@ -1,4 +1,12 @@
-export type ClassValue = string | number | boolean | undefined | null | { [key: string]: any } | ClassValue[]
+export type ClassDictionary = Record<string, boolean | undefined | null>
+export type ClassValue =
+  | string
+  | number
+  | boolean
+  | undefined
+  | null
+  | ClassDictionary
+  | ClassValue[]
 
 export function clsx(...inputs: ClassValue[]): string {
   const classes: string[] = []
@@ -22,5 +30,5 @@ export function clsx(...inputs: ClassValue[]): string {
 }
 
 export function cn(...inputs: ClassValue[]) {
-  return clsx(inputs).replace(/\s+/g, ' ').trim()
+  return clsx(...inputs).replace(/\s+/g, ' ').trim()
 }

@@ -63,7 +63,7 @@ export function Header({ currentPage }: HeaderProps) {
             className="flex items-center space-x-3 hover:opacity-80 transition-opacity duration-300 cursor-pointer focus-ring"
             aria-label="Navigate to homepage"
           >
-            <div className="w-10 h-10 bg-primary rounded-2xl flex items-center justify-center shadow-accent">
+            <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center shadow-accent">
               <span className="text-primary-foreground text-lg font-bold">N</span>
             </div>
             <div>
