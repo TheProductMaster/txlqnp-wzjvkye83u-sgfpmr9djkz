@@ -73,7 +73,7 @@ export function BlogPage() {
               <input
                 type="text"
                 placeholder="Search articles..."
-                className="w-full pl-12 pr-4 py-4 text-lg rounded-2xl border border-border bg-background/80 backdrop-blur-sm focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
+                className="w-full pl-12 pr-4 py-4 text-lg rounded-xl border border-border bg-background/80 backdrop-blur-sm focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
               />

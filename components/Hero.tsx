@@ -114,7 +114,7 @@ export function Hero() {
               <div className="flex flex-col sm:flex-row gap-6 pt-4">
                 <Button 
                   size="lg" 
-                  className="btn-primary px-8 py-6 text-lg rounded-2xl magnetic"
+                  className="btn-primary px-8 py-6 text-lg rounded-xl magnetic"
                   onClick={() => window.location.hash = 'contact'}
                 >
                   Start Your Project
@@ -125,7 +125,7 @@ export function Hero() {
                 <Button 
                   variant="outline" 
                   size="lg"
-                  className="btn-outline px-8 py-6 text-lg rounded-2xl group magnetic"
+                  className="btn-outline px-8 py-6 text-lg rounded-xl group magnetic"
                   onClick={() => window.location.hash = 'portfolio'}
                 >
                   View Case Studies
@@ -146,7 +146,7 @@ export function Hero() {
                     style={{ animationDelay: `${index * 200}ms` }}
                   >
                     <div className="flex items-center space-x-4">
-                      <div className="w-16 h-16 bg-accent text-accent-foreground rounded-2xl flex items-center justify-center text-2xl shadow-accent group-hover:scale-110 transition-transform duration-300">
+                      <div className="w-16 h-16 bg-accent text-accent-foreground rounded-xl flex items-center justify-center text-2xl shadow-accent group-hover:scale-110 transition-transform duration-300">
                         {achievement.icon}
                       </div>
                       <div>

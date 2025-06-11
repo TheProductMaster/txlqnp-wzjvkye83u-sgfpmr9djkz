@@ -184,7 +184,7 @@ export function PortfolioHighlights() {
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <Button 
                 size="lg"
-                className="magnetic bg-gradient-to-r from-gradient-start to-gradient-end shadow-glow px-8 py-6 rounded-2xl"
+                className="magnetic bg-gradient-to-r from-gradient-start to-gradient-end shadow-glow px-8 py-6 rounded-xl"
                 onClick={() => window.location.hash = 'contact'}
               >
                 Start Your Project
@@ -195,7 +195,7 @@ export function PortfolioHighlights() {
               <Button 
                 variant="outline" 
                 size="lg"
-                className="magnetic glass-card border-white/20 hover:border-white/40 px-8 py-6 rounded-2xl"
+                className="magnetic glass-card border-white/20 hover:border-white/40 px-8 py-6 rounded-xl"
                 onClick={() => window.location.hash = 'portfolio'}
               >
                 View All Projects

@@ -198,7 +198,7 @@ export function Testimonials() {
             <div className="flex flex-col sm:flex-row gap-6 justify-center">
               <Button 
                 size="lg"
-                className="btn-accent px-8 py-6 rounded-2xl magnetic"
+                className="btn-accent px-8 py-6 rounded-xl magnetic"
                 onClick={() => window.location.hash = 'contact'}
               >
                 Start Your Project
@@ -209,7 +209,7 @@ export function Testimonials() {
               <Button 
                 variant="outline" 
                 size="lg"
-                className="btn-outline px-8 py-6 rounded-2xl magnetic"
+                className="btn-outline px-8 py-6 rounded-xl magnetic"
                 onClick={() => window.location.hash = 'about'}
               >
                 Read All Reviews

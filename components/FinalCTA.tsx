@@ -81,7 +81,7 @@ export function FinalCTA() {
             <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">
               <Button 
                 size="lg"
-                className="magnetic bg-gradient-to-r from-gradient-start to-gradient-end hover:from-gradient-start/90 hover:to-gradient-end/90 shadow-glow hover:shadow-glow px-12 py-6 text-xl rounded-2xl group"
+                className="magnetic bg-gradient-to-r from-gradient-start to-gradient-end hover:from-gradient-start/90 hover:to-gradient-end/90 shadow-glow hover:shadow-glow px-12 py-6 text-xl rounded-xl group"
                 onClick={() => window.location.hash = 'contact'}
               >
                 Start Your Project
@@ -92,7 +92,7 @@ export function FinalCTA() {
               <Button 
                 variant="outline" 
                 size="lg"
-                className="magnetic glass-card border-white/20 hover:border-white/40 hover:bg-white/10 px-12 py-6 text-xl rounded-2xl group"
+                className="magnetic glass-card border-white/20 hover:border-white/40 hover:bg-white/10 px-12 py-6 text-xl rounded-xl group"
                 onClick={() => window.location.hash = 'contact'}
               >
                 Schedule a Call
@@ -147,7 +147,7 @@ export function FinalCTA() {
                   >
                     <CardContent className="p-0">
                       <div className={`
-                        w-16 h-16 bg-gradient-to-br ${benefit.gradient} rounded-2xl 
+                        w-16 h-16 bg-gradient-to-br ${benefit.gradient} rounded-xl 
                         flex items-center justify-center text-3xl mx-auto mb-4 shadow-glow
                         transition-all duration-500
                         ${hoveredBenefit === index ? 'scale-125 rotate-12' : 'group-hover:scale-110'}
