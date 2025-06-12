@@ -54,8 +54,8 @@ export function ServicesOverview() {
         </div>
 
         {/* Main Services Grid */}
-        <div className="grid lg:grid-cols-2 gap-8 mb-16">
-          {mainServices.map((service, index) => {
+          <div className="grid lg:grid-cols-2 gap-8 mb-16">
+            {mainServices.map((service) => {
             const isHovered = hoveredService === service.id;
             const isExpanded = expandedTech.includes(service.id);
             const displayTech = isExpanded ? service.technologies : service.technologies.slice(0, 4);
@@ -72,7 +72,7 @@ export function ServicesOverview() {
                 
                 <CardContent className="p-0 h-full flex flex-col relative z-10">
                   {/* Service Icon */}
-                  <div className="w-20 h-20 text-5xl mb-8 bg-accent text-accent-foreground rounded-2xl flex items-center justify-center shadow-accent group-hover:scale-110 transition-transform duration-500">
+                  <div className="w-20 h-20 text-5xl mb-8 bg-accent text-accent-foreground rounded-xl flex items-center justify-center shadow-accent group-hover:scale-110 transition-transform duration-500">
                     <span>{service.icon}</span>
                   </div>
 
@@ -188,7 +188,7 @@ export function ServicesOverview() {
                 
                 <CardContent className="p-0 h-full flex flex-col relative z-10">
                   {/* Service Icon */}
-                  <div className="w-16 h-16 text-3xl mb-6 bg-primary text-primary-foreground rounded-2xl flex items-center justify-center shadow-modern group-hover:scale-110 transition-transform duration-500">
+                  <div className="w-16 h-16 text-3xl mb-6 bg-primary text-primary-foreground rounded-xl flex items-center justify-center shadow-modern group-hover:scale-110 transition-transform duration-500">
                     <span>{service.icon}</span>
                   </div>
 

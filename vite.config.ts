@@ -14,9 +14,6 @@ export default defineConfig({
       '@/styles': path.resolve(__dirname, './styles')
     }
   },
-  css: {
-    postcss: './postcss.config.js',
-  },
   build: {
     outDir: 'dist',
     sourcemap: true,

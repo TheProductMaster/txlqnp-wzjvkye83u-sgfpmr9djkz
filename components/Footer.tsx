@@ -113,7 +113,7 @@ export function Footer() {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
-              <div className="w-12 h-12 bg-primary rounded-2xl flex items-center justify-center shadow-accent">
+              <div className="w-12 h-12 bg-primary rounded-xl flex items-center justify-center shadow-accent">
                 <span className="text-primary-foreground text-xl font-bold">N</span>
               </div>
               <div>
@@ -207,7 +207,7 @@ export function Footer() {
         <div className="modern-card p-8 mb-12">
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div>
-              <div className="w-12 h-12 bg-accent text-accent-foreground rounded-2xl flex items-center justify-center text-2xl mx-auto mb-4 shadow-accent">
+              <div className="w-12 h-12 bg-accent text-accent-foreground rounded-xl flex items-center justify-center text-2xl mx-auto mb-4 shadow-accent">
                 📧
               </div>
               <h5 className="font-semibold mb-2 text-foreground">Email</h5>
@@ -220,7 +220,7 @@ export function Footer() {
             </div>
             
             <div>
-              <div className="w-12 h-12 bg-accent text-accent-foreground rounded-2xl flex items-center justify-center text-2xl mx-auto mb-4 shadow-accent">
+              <div className="w-12 h-12 bg-accent text-accent-foreground rounded-xl flex items-center justify-center text-2xl mx-auto mb-4 shadow-accent">
                 📞
               </div>
               <h5 className="font-semibold mb-2 text-foreground">Phone</h5>
@@ -233,7 +233,7 @@ export function Footer() {
             </div>
             
             <div>
-              <div className="w-12 h-12 bg-accent text-accent-foreground rounded-2xl flex items-center justify-center text-2xl mx-auto mb-4 shadow-accent">
+              <div className="w-12 h-12 bg-accent text-accent-foreground rounded-xl flex items-center justify-center text-2xl mx-auto mb-4 shadow-accent">
                 📍
               </div>
               <h5 className="font-semibold mb-2 text-foreground">Location</h5>

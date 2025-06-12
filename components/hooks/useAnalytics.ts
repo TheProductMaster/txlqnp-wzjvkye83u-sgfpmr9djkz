@@ -4,12 +4,12 @@ import { useEffect } from 'react';
 const GA_MEASUREMENT_ID = 'G-XXXXXXXXXX'; // Replace with your actual GA4 Measurement ID
 
 // Declare gtag function for TypeScript
-declare global {
-  interface Window {
-    gtag: (...args: any[]) => void;
-    dataLayer: any[];
+  declare global {
+    interface Window {
+      gtag: (...args: unknown[]) => void;
+      dataLayer: unknown[];
+    }
   }
-}
 
 export interface AnalyticsEvent {
   action: string;
@@ -41,14 +41,14 @@ export function useAnalytics() {
         page_location: window.location.href,
       });
 
-      console.log('🔍 Google Analytics 4 initialized');
+      console.warn('Google Analytics 4 initialized');
     };
 
     // Only initialize in production or when GA_MEASUREMENT_ID is properly set
     if (GA_MEASUREMENT_ID !== 'G-XXXXXXXXXX') {
       initializeGA();
     } else {
-      console.log('📊 Analytics in development mode - tracking disabled');
+      console.warn('Analytics in development mode - tracking disabled');
     }
   }, []);
 
@@ -61,7 +61,7 @@ export function useAnalytics() {
         page_path: `#${page}`,
       });
 
-      console.log(`📊 Page view tracked: ${page}`);
+      console.warn(`Page view tracked: ${page}`);
     }
   };
 
@@ -74,7 +74,7 @@ export function useAnalytics() {
         value: value,
       });
 
-      console.log(`📊 Event tracked: ${category} - ${action}`);
+      console.warn(`Event tracked: ${category} - ${action}`);
     }
   };
 
